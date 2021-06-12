@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MMT.Orders.Common\MMT.Orders.Common.csproj" />
+    <ProjectReference Include="..\MMT.Orders.Contracts\MMT.Orders.Contracts.csproj" />
+    <ProjectReference Include="..\MMT.Orders.Data\MMT.Orders.Data.csproj" />
+    <ProjectReference Include="..\MMT.Orders.Services\MMT.Orders.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "2835516a-40f7-494d-967e-e98b98f17988",
+		"name": "MMT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44385/Orders/latest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{ \r\n\t\"user\": \"santa@north-pole.lp.com\",\r\n\t\"customerId\": \"XM45001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44385/Orders/latest",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44385",
+					"path": [
+						"Orders",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
